@@ -1,0 +1,95 @@
+*{
+    margin: 0;
+    padding: 0;
+    overflow: 0;
+}
+
+body{
+    background: url("../assets/bg.png");
+    font-family: 'Montserrat', sans-serif;
+    font-size: 11px;
+}
+
+.navbar{
+    display: flex;
+    justify-content:space-between;
+    background-color: #0D0D0D;
+    color: #fff;
+    height: 60px;
+}
+
+
+.grow-list{
+    /* border: 2px solid yellow; */
+    margin-left: -263px;
+}
+.line{
+    border: 0px solid #fff;
+    color: #fff;
+}
+.grow-list ul li{
+    display: inline-block;
+    margin-top: 14px;
+    margin-left: 120px;
+
+}
+
+img{
+    margin-left: 30px;
+    margin-top: 15px;
+    margin-bottom: 10px;
+    width: 80px;
+}
+
+div button{
+    margin-top: 13px;
+    background-color: #8D3DAF;
+    border: none;
+    cursor: grab;
+    margin-right: 50px;
+    color: #fff;
+    padding: 10px;
+    margin-bottom: 7px;
+    margin-top: 7px;
+    border-radius: 5px;
+    width: 106px;
+}
+
+.line
+{
+    border: 1px solid #fff;
+    margin-left: -88px;
+    margin-top: 8px;
+    margin-bottom: 11px
+}
+
+.list{
+    margin-left: 83px;
+        margin-top: 5px;
+
+}
+
+.hero{
+    /* border: 3px solid yellow; */
+    text-align: center;
+    margin: 80px 0px;
+}
+.hero h1{
+    /* border: 3px solid red; */
+    font-family: 'Montserrat', sans-serif;
+    color: #fff;
+    font-size: 84px;
+}
+
+.button-large{
+    width: 310px;
+    font-size: 27px;
+    font-weight: bold;
+    margin: 30px auto;
+}
+.hero p{
+    font-size: 25px;
+    color: #fff
+}
+
+
